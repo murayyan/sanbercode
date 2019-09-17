@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content" id="container">
+        <button onclick="hide_image()" id="button">Click to hide the image</button>
+        <div class="loader">
+            <img src="loader.gif" />
+        </div>
+    </div>
+</body>
+<script>
+    // function hide_image(){
+    //     document.getElementById('loader').style.display = "none";
+    // }
+    document.getElementById("button").onclick = function () {
+        document.getElementsByClassName('loader').style.display = "none";
+    };
+
+    // function myFunction() {
+    //   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+    // }
+</script>
+
+</html>
