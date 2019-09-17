@@ -1,0 +1,1 @@
+![alt teks gambar](https://github.com/murayyan/sanbercode/blob/master/Capture.PNG)
