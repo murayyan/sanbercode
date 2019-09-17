@@ -15,4 +15,8 @@ $a =   ["1" =>[
             "row8" => "field1 dengan field3 = A"]
         ];
  
-print_r($a);
+        print_r($a["1"]);
+        print_r($a["2"]);
+        print_r($a["3"]);
+        print_r($a["4"]);
+        print_r($a["5"]);
